@@ -4,7 +4,7 @@
 # Inference
 
 1. Prepare an image and a pcd (point cloud) file.
-2. Modify the path in the inference file
+2. Modify the path in the inference file: ```test_point_cloud_0620_single.py```
    ```python
     if __name__ == "__main__":
         trainer = MirrorTrainer(env_type=env,
