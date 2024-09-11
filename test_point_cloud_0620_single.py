@@ -400,7 +400,8 @@ if __name__ == "__main__":
                             master_port=17752,
                             training_script=__file__)
     
-    trainer.run_single_file("/home/xingzhaohu/point_cloud_project/2024_0624_data_test/img/KIN_3828.png", "/home/xingzhaohu/point_cloud_project/2024_0624_data_test/pcd/KIN_3828.pcd")
+    trainer.run_single_file("/home/xingzhaohu/point_cloud_project/2024_0624_data_test/img/KIN_3828.png", 
+                            "/home/xingzhaohu/point_cloud_project/2024_0624_data_test/pcd/KIN_3828.pcd")
     
 
     # trainer.run_single_file("/home/xingzhaohu/point_cloud_project/2024_0624_data_test/img/KIN_1283.png", "/home/xingzhaohu/point_cloud_project/data/bin/KIN_0.bin")
