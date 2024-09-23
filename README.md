@@ -90,7 +90,7 @@ python label.py
 ## Registration for global localization
 
 ```bash
-python ./BIMconvert/tools/register.py
+python ./tools/register.py
 ```
 ![Registration](BIMconvert/img/registration3.png)
 
